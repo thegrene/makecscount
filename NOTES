@@ -1,0 +1,26 @@
+GENERAL
+
+The sequence once things are is:
+
+commit	-- changes in local edits
+pull	-- verify there are no conflicts (collisions)
+push	-- update your changes on the repository
+
+USEFUL GIT COMMANDS
+
+1. git clone		Clone the repository and download to local machine (do once at setup)
+2. git pull		Gets any recent changes from repository
+			Do this with great frequency as it captures changes by others
+			A pull overwrites the local copy, so be careful!
+3. git add FILENAME	When a new file is created, it happens locally, but one doesn't
+			necessarily want to add it to the repository.  (Like these notes.)
+			To add a file to the repository, specify it specifically after creation
+4. git commit -a	Saves changes locally to the repository (add commit message to
+			produce a log of changes)
+5. git push		After a file is committed, send the changes to the repository
+
+For other things like reverting to prior version, Google exists.
+
+Similarly, to have GitHub serve a web site, watch a video.
+
+If there are commit conflicts, commit will indicate the issues.
