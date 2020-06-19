@@ -1,40 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<style>
-div {
-margin: 25px 20px 20px 20px;
-}
-div.outset {
-  border-style: outset; 
-}
-</style>
-
-<title>Make CS Count</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    footer {
+        text-align: center;
+        padding: 3px;
+        background-color: #3C6E71;
+        color: white;
+    }
+    .w3-button {
+      letter-spacing: normal;
+      color: #353535;
+      background-color: white;
+    }
+    .w3-bar {
+      background-color: white;
+    }
+    .w3-content {
+      background-color: white;
+    }
+    
+    
+      </style>
 </head>
 <body>
-<div>
-<h1>CSEd Reading Group</h1>
-
-<p>Tuesdays 5-6pm Pacific on <a href="https://zoom.us/j/554898701">Zoom</a></p>
-<p>Mondays 7-8pm Pacific on <a href="https://twitter.com/search?q=talkcsed&src=typed_query">Twitter</a></p>
-
-<div class="outset">
-<p><a href="https://dl.acm.org/doi/abs/10.1145/3328778.3366792">When Twice as Good Isn't Enough: The Case for Cultural Competence in Computing</a> [Washington 2020]</p>
-
-<p><a href="https://docs.google.com/document/d/1qiwe-MkXJFB-chsTF3A3hoWSisM66tUcrzVSbMurecI/edit">Reading Guide</a></p>
-
-<p>Wondering what specific actions you can take to push your practice towards cultural proficiency?</p>
-<p> Read Dr. Washington's CSforAll article, <a href="https://medium.com/csforall-stories/design-to-disrupt-making-space-for-every-student-in-cs-46137dc0ba00">Design to Disrupt: Making Space for Every Student in CS.</a> </p>
-
-<audio controls>
-  <source src="audiofiles/Washington_6-9-20.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-</div> 
+<!-- Navbar (sit on top) -->
+<a id="top"></a>
+<div class="w3-top">
+  <div class="w3-bar w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Make CS Count in California</b> </a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="index.html" class="w3-bar-item w3-button">About</a>
+      <a href="index.html" class="w3-bar-item w3-button">Resources</a>
+      <a href="readinggroup.html" class="w3-bar-item w3-button">Join the Reading Group</a>
+      <a href="index.html" class="w3-bar-item w3-button">How You Can Help</a>
+    </div>
+  </div>
 </div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;"  id="home"> 
+   <img src="images/navy.jpg" alt="Navy" width="1500" height="400">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white">Join the CSEd Reading Group</span></h1>
+  </div>
+</header>
+
+  <!-- Reading Group Section -->
+  <div class="w3-container w3-padding-32" id="readinggroup">
+    <div>
+        <p>Tuesdays 5-6pm Pacific on <a href="https://zoom.us/j/554898701">Zoom</a></p>
+        <p>Mondays 7-8pm Pacific on <a href="https://twitter.com/search?q=talkcsed&src=typed_query">Twitter</a></p>
+        
+        <div class="outset">
+        <p><a href="https://dl.acm.org/doi/abs/10.1145/3328778.3366792">When Twice as Good Isn't Enough: The Case for Cultural Competence in Computing</a> [Washington 2020]</p>
+        
+        <p>Wondering what specific actions you can take to push your practice towards cultural proficiency? Read Dr. Washington's CSforAll article, <a href="https://medium.com/csforall-stories/design-to-disrupt-making-space-for-every-student-in-cs-46137dc0ba00">Design to Disrupt: Making Space for Every Student in CS.</a> </p>
+        
+        <audio controls>
+          <source src="audiofiles/Washington_6-9-20.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+        </div> 
+        </div>
+  </div>
+
+  <!-- Footer -->
+<footer>
+  <p></p><a href="#home" >Make CS Count in California</a></p>
+  </footer>
 </body>
 </html>
+
+
