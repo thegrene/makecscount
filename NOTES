@@ -1,6 +1,6 @@
 GENERAL
 
-The sequence once things are is:
+The sequence once things are set up is:
 
 commit	-- changes in local edits
 pull	-- verify there are no conflicts (collisions)
@@ -23,4 +23,4 @@ For other things like reverting to prior version, Google exists.
 
 Similarly, to have GitHub serve a web site, watch a video.
 
-If there are commit conflicts, commit will indicate the cows. 
+If there are commit conflicts, commit will indicate the conflicts. 
