@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 
 <body>
 
@@ -29,9 +29,10 @@
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;"  id="home"> 
-<iframe src="https://editor.p5js.org/emily0/embed/wdctd5gx7" width=100% height="200px"></iframe>
+
+<iframe src="https://editor.p5js.org/emily0/embed/mVN4t1v9V"></iframe>
   <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white">Make CS Count in California</h1>
+    <h1 class="w3-xxlarge w3-text-white">Hour of Code 2020</h1>
 
   </div>
 
@@ -40,44 +41,26 @@
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
 
-
-
-      <!-- About Section -->
-  <div class="w3-container w3-padding-32" id="about">
-    
-
-<p>Make CS Count is a place for working toward sustainable, equitable computer science education implementation in the state of California.</p>
-<p>We meet on <a href="https://scoe.zoom.us/j/92674065903">Zoom</a> on the first Tuesday of every month at 4pm PT to work on the website and related projects. Everyone is welcome!</p>
-
-<h2>Join us every Tuesday at 5pm for the <a href="http://makecscount.com/readinggroup.html">CSEd Reading Group!</a></a>
-    
-  </div>
-
-  <div class="w3-container w3-padding-32" id="about">
-    <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">What's New?</h2> 
-<p><a href="https://csforca.org/csequityguide/">Equity Guide 2.0</a> is out!</p>
-  </div>
-
 <!-- Links section -->
 <span id="cards">
   
   <div class="cardholder">
     
-    <div class="card"> <h3><a href="csta/index.html">Teaching</a></h3>
+    <div class="card"> <h3><a href="csta/index.html">K 1 2</a></h3>
     </div> 
     
   </div>
   <div class="cardholder">
-    <div class="card"> <h3><a href="readinggroup.html">Learning</a></h3>
+    <div class="card"> <h3><a href="readinggroup.html">3 4 5</a></h3>
     </div>
   </div>
   <div class="cardholder">
-    <div class="card"> <h3><a href="advocacy/index.html">Advocacy</a></h3>
+    <div class="card"> <h3><a href="advocacy/index.html">6 7 8</a></h3>
     </div>
   </div>
   <div class="cardholder">
 
-    <div class="card"> <h3><a href="communicate/index.html">Community</a></h3>
+    <div class="card"> <h3><a href="communicate/index.html">9+</a></h3>
     </div>
 
   </div>
@@ -87,47 +70,11 @@
       <!-- Events Section -->
       <div class="w3-container w3-padding-32" id="calendar">
         <div>
-          <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Upcoming CS Events</h2> 
+          <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Teacher Resources</h2> 
 
-<p>Weds Oct 21 7:00-8:30 CSTA-SV: Michael Vaganov on Unity</p>
-<p>Thurs Nov 5 2:00-3:00 CSforCA Coalition Call <a href="https://ucla.zoom.us/j/9815919488">Zoom</a></p>
-<p>Thurs Nov 5 3:00-4:00 <a href="bit.ly/csforca-nov20">CSforCA K-12 Teaching & Learning Workgroup</a></p>
-<p>Thurs Nov 12 4:30-6:00 CSTA-SMC</p>
-<p>Tues Nov 17 4:00-5:30 <a href="https://www.eventbrite.com/e/2020-csforall-commitments-showcase-tickets-125041882637">2020 CSforALL Commitments Showcase</a></p>
-          <p><a href="calendar.html">Full calendar</a></p>
+<p><a href="mailto:helpMeDoctorEm@gmail.com">Ask for Help</a></p>
         </div>
       </div>
-
-      <!-- Resources Section -->
-      <div class="w3-container w3-padding-32" id="resource">
-        <div>
-         <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Resources</h2> 
-          <p><a href="https://www.cde.ca.gov/pd/ca/cs/documents/cssiplegreport2019.docx">Read the CA CSSIP </a></p>
-          <p><a href="https://sites.google.com/sfusd.edu/cs-sac/standards">Navigate the Standards</a></p>
-          <p><a href="https://csforca.org/wp-content/uploads/2020/09/CSEquityGuide_Sep2020.pdf">Use the Equity Guide</a></p>
-<p><a href="csta/index.html">Join the Computer Science Teachers Association</a></p>            
-</div> 
-      </div>
-
-      <!-- Pegagogy Section -->
-      <div class="w3-container w3-padding-32" id="pedagogy">
-        <div>
-<h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Weekly Pedagogy</h2> 
-<p><a href="https://docs.google.com/document/d/1ncil5b0yWAN4LCyOeXwYuNrNKEHtN4nmAd2o-_K5Psw/edit">EIPM</a> is a strategy used by code.org: Explore, Investigate, Practice, Make</p>
-<p>Include <a href="https://www.ncwit.org/engagement-practices-framework">Student Voice & Choice</a> by encouraging students to choose WHAT project to make and HOW to make it.</p>
-<p><a href="https://blogs.kcl.ac.uk/cser/2017/09/01/primm-a-structured-approach-to-teaching-programming/">PRIMM</a> stands for Predict, Run, Investigate, Modify, Make. Try out these steps to maximize enagement and understanding for coding concepts.</p>
-<p>Explore more on <a href="https://www.csteachingtips.org">CS Teaching Tips</a></p>
-</div>
-</div>
-    <!-- How to Help Section -->
-    <div class="w3-container w3-padding-32" id="howtohelp">
-      <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">How Can You Help?</h2>
-    
-      <p> - Attend any of our weekly meetings at 4pm every Tuesday. No RSVP necessary. <a href="https://scoe.zoom.us/j/92674065903">Join with this Zoom link.</a></p>
-      <p>- Contribute to the <a href="https://docs.google.com/document/d/1EK3FslvqL3LamGjjK8Lc7yQ4N3POj7iZbqWAVy80GGQ/edit#">plan</a> for this website.</p>
-      <p>- Add yourself to the <a href="https://docs.google.com/spreadsheets/d/1t3xvknTjV5hf3FIOSHDHRqBa_sQSzUVZM7VR_uprwPc/edit#gid=0">Who's Who</a>.</p>
-      <p>- Join the <a href="https://join.slack.com/t/csforca/shared_invite/zt-fw15x0ck-~szEeUVcAPVz7dmu_QcFHw">CSforCA Slack</a>. </p>
-    </div>
 
 <!-- Footer -->
 <footer>
