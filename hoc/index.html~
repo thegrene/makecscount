@@ -47,20 +47,24 @@
   <div class="cardholder">
     
     <div class="card"> <h3><a href="csta/index.html">K 1 2</a></h3>
+<img src="http://makecscount.com/images/codespark.jpg" width=100%>
     </div> 
     
   </div>
   <div class="cardholder">
     <div class="card"> <h3><a href="readinggroup.html">3 4 5</a></h3>
+<img src="http://makecscount.com/images/codespark.jpg" width=100%>
     </div>
   </div>
   <div class="cardholder">
     <div class="card"> <h3><a href="advocacy/index.html">6 7 8</a></h3>
-    </div>
+<img src="http://makecscount.com/images/vidcode_face.jpg" width=100%> 
+   </div>
   </div>
   <div class="cardholder">
 
     <div class="card"> <h3><a href="communicate/index.html">9+</a></h3>
+<img src="http://makecscount.com/images/processing_foundation.jpg" width=100%>
     </div>
 
   </div>
@@ -71,6 +75,8 @@
       <div class="w3-container w3-padding-32" id="calendar">
         <div>
           <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Teacher Resources</h2> 
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ4Hk7U8lmxUP63f9pn-oW8uzkayguOtIE3nyu7nC77ciKbM4f5W86se6gsPZ3HEAcoBvx6O11RNXMG/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 <p><a href="mailto:helpMeDoctorEm@gmail.com">Ask for Help</a></p>
         </div>
