@@ -39,6 +39,12 @@ a {
   color: var(--color-contrast, blue);
 }
 
+h1 {
+  color: var(--color-h2, yellow);
+  font-size:48px;
+  font-family: "Montserrat";
+}
+
 h2 {
   color: var(--color-contrast, pink);
   font-family: "Montserrat";
