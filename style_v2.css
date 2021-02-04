@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  --color-dark: #484747;
+  --color-h1: #8EE1FF;
+  --color-h2: #ffb14b;
+  --color-light: #ffffff; 
+  --color-contrast: #ff5943;
+  margin-top:20%; 
+  
+}
+
+.bar{
+  width:100%;
+  overflow:hidden;
+}
+
+.bar iframe{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top {
+  position:fixed;
+  width:100%;
+  z-index:1;
+  top:0;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-image: url("rainbow_flat.png");
+    color: var(--color-light, white);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.column {
+  float: left;
+}
+
+.column.main {
+  width: 75%;
+  padding: 32px;
+}
+
+.column.side {
+  width: 25%;
+  padding-top: 32px;
+  height: 600px;
+  overflow: scroll;
+}
+
+.row {
+ height: 100%;
+ display:block;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.bar {
+  background-color: var(--color-light, white);
+}
+
+p {
+  font-family: "Helvetica";
+  color: var(--color-dark, black);
+  font-size:16px;
+}
+
+a { 
+  color: var(--color-contrast, blue);
+}
+
+h1 {
+  color: var(--color-h2, yellow);
+  font-size:48px;
+  font-family: "Montserrat";
+}
+
+h2 {
+  color: var(--color-dark, pink);
+  font-size:36px;
+  font-family: "Montserrat";
+}
+
+.card{
+  text-align:center;
+  font-family: "Montserrat";
+  padding:1%;
+  background-color: var(--color-h1, blue);
+  color: var(--color-light, white);
+  vertical-align:center;
+  display:block;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+  
+
+.card a {
+  text-decoration: none;
+  color: var(--color-dark, black);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.cardholder {
+  float:left;
+  width:20%;
+  padding: 10px;
+}
+
+
+
