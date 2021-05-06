@@ -7,7 +7,11 @@ body {
   --color-h1: #8EE1FF;
   --color-h2: #ffb14b;
   --color-light: #ffffff; 
-  --color-contrast: #ff5943;
+  --color-red: #ff9587;
+  --color-orange: #ffcf91;
+  --color-yellow: #fffeb4;
+  --color-green: #a2ffe9;
+  --color-blue: #8ee1ff;
   margin-top:20%; 
   
 }
@@ -28,6 +32,23 @@ body {
   width:100%;
   z-index:1;
   top:0;
+}
+
+.assetWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.assetWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
 }
 
 footer {
@@ -84,7 +105,7 @@ p {
 }
 
 a { 
-  color: var(--color-contrast, blue);
+  color: var(--color-red, red);
 }
 
 h1 {
@@ -99,6 +120,14 @@ h2 {
   font-family: "Montserrat";
 }
 
+h3 {
+  color: var(--color-dark, pink);
+  font-size:24px;
+  font-family: "Montserrat";
+}
+
+
+
 .card{
   text-align:center;
   font-family: "Montserrat";
@@ -111,7 +140,27 @@ h2 {
   transition: 0.3s;
   border-radius: 5px;
 }
-  
+
+.card.red {
+  background-color: var(--color-red, red);
+}  
+
+.card.orange {
+  background-color: var(--color-orange, orange);
+}  
+
+.card.yellow {
+  background-color: var(--color-yellow, yellow);
+}  
+
+.card.green {
+  background-color: var(--color-green, green);
+}  
+
+
+
+
+
 
 .card a {
   text-decoration: none;
@@ -125,7 +174,7 @@ h2 {
 .cardholder {
   float:left;
   width:20%;
-  padding: 10px;
+  padding: 20px 20px 20px 20px;
 }
 
 
