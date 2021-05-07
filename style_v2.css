@@ -34,22 +34,42 @@ body {
   top:0;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
 .assetWrapper {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 33.75%;
   /* 16:9 */
-  padding-top: 25px;
+  padding-top: 50px;
   height: 0;
 }
 
-.assetWrapper iframe {
+.titleBox {
+  float: left;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 40%;
   height: 100%;
   padding: 10px;
 }
+
+.assetWrapper iframe {
+  float: right;
+  position: absolute;
+  top: 0;
+  left: 40%;
+  width: 60%;
+  height: 100%;
+  padding: 10px;
+}
+
+
 
 footer {
     text-align: center;
@@ -65,14 +85,14 @@ footer {
 }
 
 .column.main {
-  width: 75%;
+  width: 80%;
   padding: 32px;
 }
 
 .column.side {
-  width: 25%;
+  width: 20%;
   padding-top: 32px;
-  height: 600px;
+  height: 800px;
   overflow: scroll;
 }
 
